@@ -1,4 +1,4 @@
-@import 'fonts.css';    
+@import '../fonts/stylesheet.css';    
 body {
     margin: 0px;
     padding: 10px;
@@ -16,7 +16,7 @@ body {
     color: #000066;
    }
    h2
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Chai', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #000066;

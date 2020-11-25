@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Chai';
-    src: url('Chai-Light.woff2') format('woff2'),
-        url('Chai-Light.woff') format('woff');
+    src: url('../fonts/Chai-Light.woff2') format('woff2'),
+        url('../fonts/Chai-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
