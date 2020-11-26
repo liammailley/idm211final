@@ -6,19 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liam Mailley's Portfolio</title>
     <style>
-        <!-- Center everything. -->
-        h1 {text-align: right;}
-        h2 {text-align: center;}
-        p {
-            text-align: center;
-            font-size: larger;
-            font-size: 1.5rem;
-        }
-        <!-- Making a sticky header and introductory box. -->
+        <!-- Making a sticky header and introductory box. --!>
         
         .top-container-box {
             width: 100%;
-            letter-spacing: 0.6rem;
             overflow: auto;
         }
         .top-container {
@@ -26,9 +17,37 @@
             font-size: 40;
             background-color: #eb5e55;
             width: 100%;
-            letter-spacing: 0.6em;
             overflow: auto;
-
+        }
+        h1.bigboldname {
+            letter-spacing: 0.6rem;
+            margin-bottom: 0;
+            margin-top: 3.5rem;
+            font-size: 5.5rem;
+            font-weight: bold;
+            color: #eb5e55;
+            text-shadow: 2px 2px black;
+            text-align: center;
+        }
+        h2.greetings {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #28afb0;
+            text-align: center;
+            margin-right: 1rem;
+        }
+        .headshot {
+            text-align: center;
+            max-width: 100%;
+            height: 100%;
+        }
+        .helloandface {
+        }
+        p.mytitles {
+            letter-spacing: 0.6rem;
+            font-size: 1rem;
+            text-align: center;
+            overflow: auto;
         }
         .sticky {
             position: sticky;
@@ -41,12 +60,8 @@
             overflow: auto;
             max-width: 100%;
         }
-        .content1 {
-            padding-top: 1rem;
-            font-size: 1rem;
-        }
         .resumeButton {
-            color:#68e1e2;
+            background-color:#68e1e2;
             font-size: 21px;
             line-height: 21px;
             padding: 0.5rem;
@@ -56,7 +71,6 @@
             font-style: normal;
             font-variant: normal;
             text-transform: none;
-            background-image: linear-gradient(to right, #68e1e2 0%, #68e1e2 50%, #68e1e2 100%);
             box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
             border: 2px solid rgb(28, 110, 164);
             display: inline-block;
@@ -68,7 +82,7 @@
             background: #007f81; 
         }
         .casestudiesButton {
-            color:#68e1e2;
+            background-color:#68e1e2;
             font-size: 21px;
             line-height: 21px;
             padding: 0.5rem;
@@ -79,7 +93,6 @@
             font-style: normal;
             font-variant: normal;
             text-transform: none;
-            background-image: linear-gradient(to right, #68e1e2 0%, #68e1e2 50%, #68e1e2 100%);
             box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
             border: 2px solid rgb(28, 110, 164);
             display: inline-block;
@@ -91,7 +104,7 @@
             background: #007f81; 
         }
         .contactsButton {
-            color:#68e1e2;
+            background-color:#68e1e2;
             font-size: 21px;
             line-height: 21px;
             padding: 0.5rem;
@@ -102,22 +115,15 @@
             font-style: normal;
             font-variant: normal;
             text-transform: none;
-            background-image: linear-gradient(to right, #68e1e2 0%, #68e1e2 50%, #68e1e2 100%);
             box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
             border: 2px solid rgb(28, 110, 164);
             display: inline-block;
         }
         .contactsButton:hover {
-        background: #28afb0; 
+            background: #28afb0; 
         }
         .contactsButton:active {
             background: #007f81; 
-        }
-        img {
-            text-align: center;
-            max-width: 50%;
-            height: auto;
-            color: white;
         }
     </style>
 
@@ -125,12 +131,11 @@
 <body>
     <div class="top-container-box">    
         <div class="top-container">
-            <h1>LIAM MAILLEY</h1>
-            <p>student, designer, etc</p>
+            <h1 class="bigboldname">LIAM MAILLEY</h1>
+            <p class="mytitles">student - designer - etc</p>
         </div>
     </div>
     <div class="sticky" text-align: center;>
-        
         <div class="resumeButton">
             <p>RESUME</p>
         </div>
@@ -141,21 +146,9 @@
             <p>CONTACTS</p>
         </div>
     </div>
-    <div class="content1">
-        <h2>I'm an Interactive Digital Media student who is working on this document right now.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Magni qui ex necessitatibus, eius doloremque rem totam officia 
-        velit aspernatur quam debitis atque sunt nemo sapiente deserunt a 
-        inventore excepturi esse! Asperiores magni repellendus tempore ipsam, 
-        atque ratione eaque ea, debitis ipsum nemo quos molestias exercitationem 
-        sapiente laborum? Natus accusantium ipsam sequi obcaecati voluptatum, reiciendis
-        error minima sapiente, maxime dolorem autem! Unde explicabo iste alias vitae 
-        repellendus optio, doloribus eum, quo ea voluptatum perferendis, fuga nesciunt 
-        ad tenetur enim nostrum eius nam? Numquam, exercitationem veniam totam, vitae 
-        praesentium tenetur dignissimos ipsa maxime et, eum in enim delectus ducimus nostrum laudantium! Repudiandae!</p>
-    </div>
-    <div class="scrollby">
-        <img src="images/Mailley_Abstract_1.jpg" alt="Example Image">
+    <div class="helloandface">
+        <img src="images/colorfulportrait.png" alt="Example Image" class="headshot">
+        <h2 class="greetings">Hi, I'm Liam.</h2>
     </div>
     <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni qui ex necessitatibus, eius doloremque rem totam officia velit aspernatur quam debitis atque sunt nemo sapiente deserunt a inventore excepturi esse! Asperiores magni repellendus tempore ipsam, atque ratione eaque ea, debitis ipsum nemo quos molestias exercitationem sapiente laborum? Natus accusantium ipsam sequi obcaecati voluptatum, reiciendis error minima sapiente, maxime dolorem autem! Unde explicabo iste alias vitae repellendus optio, doloribus eum, quo ea voluptatum perferendis, fuga nesciunt ad tenetur enim nostrum eius nam? Numquam, exercitationem veniam totam, vitae praesentium tenetur dignissimos ipsa maxime et, eum in enim delectus ducimus nostrum laudantium! Repudiandae!</p>
