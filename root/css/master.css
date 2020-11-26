@@ -13,3 +13,9 @@ body {
    h2 {
     font-family: 'National Park R', Arial, Helvetica, sans-serif;
    }
+   a.link {
+       color: #28afb0;
+   }
+   a.visited {
+       color: #007f81;
+   }
