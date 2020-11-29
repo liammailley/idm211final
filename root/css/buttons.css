@@ -1,0 +1,56 @@
+.homeButton {
+    background-color:#68e1e2;
+    font-size: 1.3rem;
+    line-height: 21px;
+    padding: 0.5rem;
+    border-radius: 23px;
+    font-family: 'Chai', Georgia, serif;
+    box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+    transition-duration: 0.5s;
+    width: 5rem;
+}
+.homeButton:hover {
+    background: #28afb0; 
+}
+.homeButton:active {
+    background: #007f81; 
+}
+.workButton {
+    background-color:#68e1e2;
+    font-size: 1.3rem;
+    line-height: 21px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 23px;
+    box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+    transition-duration: 0.5s;
+    width: 5rem;
+}
+.workButton:hover {
+background: #28afb0; 
+}
+.workButton:active {
+    background: #007f81; 
+}
+.resumeButton {
+    background-color:#68e1e2;
+    font-size: 1.3rem;
+    line-height: 21px;
+    padding: 0.5rem;
+    border-radius: 23px;
+    box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+    transition-duration: 0.5s;
+    width: 5rem;
+}
+.resumeButton:hover {
+background: #28afb0; 
+}
+.resumeButton:active {
+    background: #007f81; 
+}

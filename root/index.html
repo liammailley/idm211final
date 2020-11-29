@@ -2,17 +2,13 @@
 <html lang="en">
 <head>
     <link href="css/master.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/buttons.css" rel="stylesheet" type="text/css" media="all">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liam Mailley's Portfolio</title>
+    <title>Liam Mailley - Home</title>
     <style>
-        .top-container-box {
-            width: 100%;
-            overflow: auto;
-        }
         .top-container {
             text-align: center;
-            font-size: 40;
             background-color: #eb5e55;
             width: 100%;
             overflow: auto;
@@ -27,29 +23,29 @@
             text-shadow: 2px 2px black;
             text-align: center;
         }
+        p.mytitles {
+            letter-spacing: 0.6rem;
+            font-size: 0.8rem;
+            text-align: center;
+            overflow: auto;
+            padding: 0 1rem;
+        }
         h2.greetings {
             font-size: 3rem;
             font-weight: bold;
             color: #28afb0;
             text-align: center;
-            margin-right: 1rem;
+            margin: 1rem 0.5rem 0;
         }
         .headshot {
-            text-align: center;
-            max-width: 100%;
             height: 100%;
-        }
-        .helloandface {
-        }
-        p.mytitles {
-            letter-spacing: 0.6rem;
-            font-size: 1rem;
+            max-width: 100%;
             text-align: center;
-            overflow: auto;
         }
         p.bio {
             font-size: 1.5rem;
             text-align: center;
+            margin: 1rem;
         }
         .sticky {
             position: sticky;
@@ -62,88 +58,29 @@
             overflow: auto;
             max-width: 100%;
         }
-        .resumeButton {
-            background-color:#68e1e2;
-            font-size: 21px;
-            line-height: 21px;
-            padding: 0.5rem;
-            border-radius: 23px;
-            font-weight: normal;
-            text-decoration: none;
-            font-style: normal;
-            font-variant: normal;
-            text-transform: none;
-            box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
-            border: 2px solid rgb(28, 110, 164);
+        
+        .logo {
             display: inline-block;
-            transition-duration: 0.5s;
+            text-align: center;
+            padding-left: 2.4rem;
+            padding-right: 2.4rem;
         }
-        .resumeButton:hover {
-        background: #28afb0; 
-        }
-        .resumeButton:active {
-            background: #007f81; 
-        }
-        .workButton {
-            background-color:#68e1e2;
-            font-size: 21px;
-            line-height: 21px;
-            padding: 0.5rem 1rem;
-            margin: 0.5rem;
-            border-radius: 23px;
-            font-weight: normal;
-            text-decoration: none;
-            font-style: normal;
-            font-variant: normal;
-            text-transform: none;
-            box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
-            border: 2px solid rgb(28, 110, 164);
-            display: inline-block;
-            transition-duration: 0.5s;
-        }
-        .workButton:hover {
-        background: #28afb0; 
-        }
-        .workButton:active {
-            background: #007f81; 
-        }
-        .contactsButton {
-            background-color:#68e1e2;
-            font-size: 21px;
-            line-height: 21px;
-            padding: 0.5rem;
-            border-radius: 23px;
-            font-family: Georgia, serif;
-            font-weight: normal;
-            text-decoration: none;
-            font-style: normal;
-            font-variant: normal;
-            text-transform: none;
-            box-shadow: rgb(0, 0, 0) 5px 5px 2px 0px;
-            border: 2px solid rgb(28, 110, 164);
-            display: inline-block;
-            transition-duration: 0.5s;
-        }
-        .contactsButton:hover {
-            background: #28afb0; 
-        }
-        .contactsButton:active {
-            background: #007f81; 
+        .logos {
+            margin: auto;
+            width: 25em;
         }
     </style>
-
 </head>
-<body>
-    <div class="top-container-box">    
+
+<body>   
         <div class="top-container">
             <h1 class="bigboldname">LIAM MAILLEY</h1>
-            <p class="mytitles">student - designer - etc</p>
+            <p class="mytitles">student - ux/ui designer</p>
         </div>
-    </div>
     <div class="sticky">
-        <a href="resume.html">
-            <div class="resumeButton" href="casestudy1.html">
-                <p>RESUME</p>
+        <a href="index.html">
+            <div class="homeButton">
+                <p>HOME</p>
             </div>
         </a>
         <a href="work.html">
@@ -151,18 +88,28 @@
                 <p>WORK</p>
             </div>
         </a>
-        <a href="contacts.html">
-            <div class="contactsButton">
-                <p>CONTACTS</p>
+        <a href="resume.html">
+            <div class="resumeButton">
+                <p>RESUME</p>
             </div>
         </a>
     </div>
-    <div class="helloandface">
-        <img src="images/colorfulportrait.png" alt="Example Image" class="headshot">
-        <h2 class="greetings">Hi, I'm Liam.</h2>
-    </div>
+    <img src="images/colorfulportrait.png" alt="Example Image" class="headshot">
+    <h2 class="greetings">Hi, I'm Liam.</h2>
     <p class="bio">
         I'm a sophomore Interactive Digital Media student at Drexel University. Find out more about me or the work I've done at the links above. 
     </p>
+    
+    <div class="logos">
+        <a href="https://www.instagram.com/liammailley">
+            <img src="images/insta_45x45.png" alt="Instagram Logo" class="logo">
+        </a>
+        <a href="https://www.linkedin.com/in/liam-mailley-bb5b69185">
+            <img src="images/linkedin_45x45.png" alt="Linkedin Logo" class="logo">
+        </a>
+        <a href="https://github.com/liammailley">
+            <img src="images/github_45x45.png" alt="Github Logo" class="logo">
+        </a>
+    </div>
 </body>
 </html>

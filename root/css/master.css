@@ -5,7 +5,6 @@ body {
    }
    p {
     font-family: 'Chai', Georgia, "Times New Roman", Times, serif;
-
    }
    h1 {
     font-family: 'Chai', Arial, Helvetica, sans-serif;
@@ -18,4 +17,7 @@ body {
    }
    a.visited {
        color: #007f81;
+   }
+   ul {
+       font-family: 'National Park R', Arial, Helvetica, sans-serif
    }
