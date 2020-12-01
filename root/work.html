@@ -7,10 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liam Mailley - Work</title>
     <style>
-        .top-container-box {
-            width: 100%;
-            overflow: auto;
-        }
         .top-container {
             text-align: center;
             background-color: #eb5e55;
@@ -34,16 +30,6 @@
             overflow: auto;
             padding: 0 1rem;
         }
-        .headshot {
-            height: 100%;
-            max-width: 100%;
-            text-align: center;
-        }
-        p.bio {
-            font-size: 1.5rem;
-            text-align: center;
-            margin: 1rem;
-        }
         .sticky {
             position: sticky;
             text-align: center;
@@ -55,31 +41,115 @@
             overflow: auto;
             max-width: 100%;
         }
-        .logo {
-            display: inline-block;
-            text-align: center;
-            padding-left: 2.4rem;
-            padding-right: 2.4rem;
-        }
-        .firstbox {
+
+
+        .digitalartbox {
             width: 18em;
             background-color: #28afb0;
-            color: #c6d8d3;
+            left: 0rem;
             margin-left: 1rem;
             margin-top: 2rem;
             text-align: center;
+            box-shadow: 1rem 1rem 0 0 #68e1e2;
+        }
+        .digitalartthumbnail {
+            width: 16em;
+            margin: auto;
+            margin-bottom: 1rem;
+            box-shadow: 4px 4px 2px 0px black;
+        }
+        .digitalarttitle {
+            color: white;
+            text-shadow: 0.5rem 0.5rem 0 0.5rem #007f81;
+        }
+
+
+        .physicalartbox {
+            width: 18em;
+            float: right;
+            right: 0rem;
+            margin-right: 1rem;
+            background-color: #68e1e2;
+            margin-left: 1rem;
+            margin-top: 2rem;
+            text-align: center;
+            box-shadow: -1rem 1rem 0 0 #28afb0;
+        }
+        .physicalartthumbnail {
+            width: 16em;
+            margin: auto;
+            margin-bottom: 1rem;
+            box-shadow: -4px 4px 2px 0px black;
+        }
+        .physicalarttitle {
+            color: white;
+            text-shadow: 0.5rem 0.5rem 0 0.5rem #007f81;
+        }
+
+
+        .uxuibox {
+            width: 18em;
+            background-color: #28afb0;
+            left: 0rem;
+            float: left;
+            margin-left: 1rem;
+            margin-top: 2rem;
+            text-align: center;
+            box-shadow: 1rem 1rem 0 0 #68e1e2;
+        }
+        .uxuithumbnail {
+            width: 16em;
+            margin: auto;
+            margin-bottom: 1rem;
+            box-shadow: 4px 4px 2px 0px black;
+        }
+        .uxuititle {
+            color: white;
+            text-shadow: 0.5rem 0.5rem 0 0.5rem #007f81;
+        }
+
+
+        .photobox {
+            width: 18em;
+            right: 0rem;
+            float: right;
+            margin-right: 1rem;
+            background-color: #68e1e2;
+            margin-left: 1rem;
+            margin-top: 2rem;
+            text-align: center;
+            box-shadow: -1rem 1rem 0 0 #28afb0;
+        }
+        .photothumbnail {
+            width: 16em;
+            margin: auto;
+            margin-bottom: 1rem;
+            box-shadow: -4px 4px 2px 0px black;
+        }
+        .phototitle {
+            color: white;
+            text-shadow: 0.5rem 0.5rem 0 0.5rem #007f81;
+        }
+
+
+        .logo {
+            display: inline-block;
+            text-align: center;
+            padding: 2.5rem 2.4rem 0 2.4rem;
+        }
+        .logos {
+            margin: auto;
+            width: 25em;
         }
     </style>
 </head>
 <body>
-    <div class="top-container-box">    
-        <div class="top-container">
-            <h1 class="bigboldname">MY WORK</h1>
-            <p class="mytitles">some things i've done</p>
-        </div>
+    <div class="top-container">
+        <h1 class="bigboldname">MY WORK</h1>
+        <p class="mytitles">some things i've done</p>
     </div>
     <div class="sticky">
-        <a href="index.html">
+        <a href="../index.html">
             <div class="homeButton">
                 <p>HOME</p>
             </div>
@@ -95,8 +165,42 @@
             </div>
         </a>
     </div>
-    <div class="firstbox">
-        <h1>Design I &amp; II for Media</h1>
+        
+    <a href="pages/digitalart.html">
+        <div class="digitalartbox">
+            <h1 class="digitalarttitle">Digital Art</h1>
+            <img src="images/inception.webp" alt="Thumbnail" class="digitalartthumbnail">
+        </div>
+    </a>
+    <a href="pages/physicalart.html">
+        <div class="physicalartbox">
+            <h1 class="physicalarttitle">Physical Art</h1>
+            <img src="images/charcoalfinal.jpg" alt="Thumbnail" class="physicalartthumbnail">
+        </div>
+    </a>
+    <a href="pages/uxui.html">
+        <div class="uxuibox">
+            <h1 class="uxuititle">UX / UI</h1>
+            <img src="images/piratesite.png" alt="Thumbnail" class="uxuithumbnail">
+        </div>
+    </a>
+    <a href="pages/photo.html">
+        <div class="photobox">
+            <h1 class="phototitle">Photography</h1>
+            <img src="images/walking.JPG" alt="Thumbnail" class="photothumbnail">
+        </div>
+    </a>
+
+    <div class="logos">
+        <a href="https://www.instagram.com/liammailley">
+            <img src="images/insta_45x45.png" alt="Instagram Logo" class="logo">
+        </a>
+        <a href="https://www.linkedin.com/in/liam-mailley-bb5b69185">
+            <img src="images/linkedin_45x45.png" alt="Linkedin Logo" class="logo">
+        </a>
+        <a href="https://github.com/liammailley">
+            <img src="images/github_45x45.png" alt="Github Logo" class="logo">
+        </a>
     </div>
 </body>
 </html>
