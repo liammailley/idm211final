@@ -7,12 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liam Mailley - Home</title>
     <style>
-        .top-container {
-            text-align: center;
-            background-color: #eb5e55;
-            width: 100%;
-            overflow: auto;
-        }
         h1.bigboldname {
             letter-spacing: 0.6rem;
             margin-bottom: 0;
@@ -33,7 +27,6 @@
         h2.greetings {
             font-size: 3rem;
             font-weight: bold;
-            color: #28afb0;
             text-align: center;
             margin: 1rem 0.5rem 0;
         }
@@ -47,7 +40,7 @@
             text-align: center;
             margin: 1rem;
         }
-        .sticky {
+        nav {
             position: sticky;
             text-align: center;
             top: 0;
@@ -58,49 +51,11 @@
             overflow: auto;
             max-width: 100%;
         }
-        
-        .logo {
-            display: inline-block;
-            text-align: center;
-            padding-left: 2.4rem;
-            padding-right: 2.4rem;
-        }
-        .logos {
-            margin: auto;
-            width: 25em;
-        }
     </style>
 </head>
 
 <body>   
-        <div class="top-container">
-            <h1 class="bigboldname">LIAM MAILLEY</h1>
-            <p class="mytitles">student - ux/ui designer</p>
-        </div>
-    <div class="sticky">
-        <a href="index.html">
-            <div class="homeButton">
-                <p>HOME</p>
-            </div>
-        </a>
-        <a href="root/work.html">
-            <div class="workButton">
-                <p>WORK</p>
-            </div>
-        </a>
-        <a href="root/resume.html">
-            <div class="resumeButton">
-                <p>RESUME</p>
-            </div>
-        </a>
-    </div>
-    <img src="root/images/colorfulportrait.png" alt="Example Image" class="headshot">
-    <h2 class="greetings">Hi, I'm Liam.</h2>
-    <p class="bio">
-        I'm a sophomore Interactive Digital Media student at Drexel University. Find out more about me or the work I've done at the links above. 
-    </p>
-    
-    <div class="logos">
+    <header>
         <a href="https://www.instagram.com/liammailley">
             <img src="root/images/insta_45x45.png" alt="Instagram Logo" class="logo">
         </a>
@@ -110,6 +65,39 @@
         <a href="https://github.com/liammailley">
             <img src="root/images/github_45x45.png" alt="Github Logo" class="logo">
         </a>
-    </div>
+        <br>
+        <h1 class="bigboldname">
+            LIAM MAILLEY
+        </h1>
+        <p class="mytitles">
+            student - ux/ui designer
+        </p>
+    </header>
+    <nav>
+        <p class="homebutton">
+            <a class="buttontext" href="index.html">
+                HOME
+            </a>
+        </p>
+        <p class="workbutton">
+            <a class="buttontext" href="root/work.html">
+                WORK
+            </a>
+        </p>
+        <p class="resumebutton">
+            <a class="buttontext" href="root/resume.html">
+                RESUME
+            </a>
+        </p>
+    </nav>
+    <main>
+        <img src="root/images/colorfulportrait.png" alt="Example Image" class="headshot">
+        <h2 class="greetings">
+            Hi, I'm Liam.
+        </h2>
+        <p class="bio">
+            I'm a sophomore Interactive Digital Media student at Drexel University. Find out more about me or the work I've done at the links above. 
+        </p>
+    </main>
 </body>
 </html>
