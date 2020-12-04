@@ -8,4 +8,4 @@ My portfolio consists of 4 seperate categories of artistic work, as well as cont
 
 ## Current Progress
 
-Currently, the site is ready for critique.
+Currently, the site is complete and ready for grading.
